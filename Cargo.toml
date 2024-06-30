@@ -3,6 +3,7 @@ name = "rust2antd"
 version = "0.1.0"
 edition = "2021"
 authors = ["plucky"]
+license = "MIT"
 description = "Generate Ant Design table from Rust struct"
 readme = "README.md"
 repository = "https://github.com/cody-why/rust2antd"
