@@ -1,0 +1,18 @@
+[package]
+name = "rust2antd"
+version = "0.1.0"
+edition = "2021"
+authors = ["plucky"]
+description = "Generate Ant Design table from Rust struct"
+readme = "README.md"
+repository = "https://github.com/cody-why/rust2antd"
+documentation = "https://docs.rs/crate/rust2antd/"
+
+[[bin]]
+name = "rust2antd"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+syn = { version = "2", features = ["full"] }
+quote = "1"
