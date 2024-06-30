@@ -6,6 +6,12 @@ authors = ["plucky"]
 license = "MIT"
 description = "Generate Ant Design table from Rust struct"
 readme = "README.md"
+keywords = [
+    "antd",
+    "struct",
+    "table",
+    "to"
+]
 repository = "https://github.com/cody-why/rust2antd"
 documentation = "https://docs.rs/crate/rust2antd/"
 

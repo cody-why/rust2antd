@@ -1,30 +1,3 @@
-//! 这是一个转换工具, 用于将 Rust struct 转换为 antd 的 Table ColumnsType 和 Interface 的定义
-//! 例如有一个rust struct:
-//! ``` no run
-//! #[derive(Debug, Serialize, Clone)]
-//! pub struct MenuList {
-//!     pub id: i32,
-//!     pub menu_name: String,
-//! }
-//! ```
-//! 转换成antd:
-//! ``` typescript
-//! export interface MenuList {
-//!     id: number;
-//!     menu_name: string;
-//! }
-//!
-//! const columns: ColumnsType<MenuList> = [
-//!     {
-//!       title: 'id',
-//!       dataIndex: 'id',
-//!     },
-//!     {
-//!       title: 'menu_name',
-//!       dataIndex: 'menu_name',
-//!     },
-//!   ]
-//! ```
 
 use tran::impl_tran;
 
